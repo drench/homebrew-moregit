@@ -2,9 +2,9 @@ require "formula"
 require "fileutils"
 
 class GitShame < Formula
-  homepage "https://gist.github.com/drench/19a0b23ceac956f4a448"
-  url "https://gist.github.com/19a0b23ceac956f4a448.git", :branch => "master"
-  head "https://gist.github.com/19a0b23ceac956f4a448.git", :branch => "master"
+  homepage "https://github.com/drench/git-shame"
+  url "https://github.com/drench/git-shame.git", :branch => "master"
+  head "https://github.com/drench/git-shame.git", :branch => "master"
 
   def install
     cp "git-shame", prefix
