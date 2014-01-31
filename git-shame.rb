@@ -9,5 +9,6 @@ class GitShame < Formula
   def install
     cp "git-shame", prefix
     bin.install "git-shame"
+    man1.install "git-shame.1"
   end
 end
