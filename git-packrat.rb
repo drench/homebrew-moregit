@@ -9,5 +9,6 @@ class GitPackrat < Formula
   def install
     cp "git-packrat", prefix
     bin.install "git-packrat"
+    man1.install "git-packrat.1"
   end
 end
