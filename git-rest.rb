@@ -9,5 +9,6 @@ class GitRest < Formula
   def install
     cp "git-rest", prefix
     bin.install "git-rest"
+    man1.install "git-rest.1"
   end
 end
